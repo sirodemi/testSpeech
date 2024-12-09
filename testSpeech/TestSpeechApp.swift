@@ -1,17 +1,18 @@
 //
-//  testSpeechApp.swift
+//  TestSpeechApp.swift
 //  testSpeech
 //
-//  Created by 衣斐司郎 on 2024/12/09.
+//  Created by 衣斐司郎 on 2024/12/10.
 //
 
 import SwiftUI
 
 @main
-struct testSpeechApp: App {
+struct TestSpeechApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
 }
+
