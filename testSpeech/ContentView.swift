@@ -1,6 +1,15 @@
 import SwiftUI
 import Speech
 
+@main
+struct TestSpeechApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
+
 class SpeechRecognizer: ObservableObject {
     @Published var text = ""
     @Published var isRecording = false
